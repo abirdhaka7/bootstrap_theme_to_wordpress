@@ -1,0 +1,92 @@
+body{
+    padding-top: 0;
+    line-height: 2;
+    margin-top: 18px;
+}
+.navbar{
+    padding: 0rem 1.5rem;
+}
+.navbar-nav .current-menu-item{
+    background: #000;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+/*sub menu*/
+.navbar-nav .menu-item-has-children:hover .dropdown-menu{
+    display: block
+}
+.dropdown-menu{
+   padding: 0;
+   margin: 0;
+}
+.dropdown-menu .menu-item .dropdown-item{
+    background: #343a40;
+    color: #9a9da0;
+}
+.dropdown-menu .menu-item a:hover {
+    background: #000;
+    color: #fff;
+}
+.current-page-parent{
+    background: #000;
+}
+
+/* PAGINATION STYLE */
+.post-pagination ul{
+    padding: 0;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.post-pagination ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.post-pagination ul li a{
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.post-pagination ul li a:hover{
+    text-decoration: none;
+}
+
+/*portfolio-page style*/
+.portfolio-page .col-md-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.portfolio-page .portfolio-item{
+    margin-bottom: 50px;
+}
+
+
+/*single-portfolio-page style*/
+.page_header_breadcrumb {
+    display: inline-block;
+    border-bottom: 1px solid #2222;
+    padding-bottom: 10px;
+}
+
+.page_header_breadcrumb ul{ 
+    padding-inline-start: 0;
+}
+.page_header_breadcrumb ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    text-decoration: none;
+}
+.page_header_breadcrumb ul li a{
+   color: #000;
+}
+.page_header_breadcrumb  ul li a:hover{
+    text-decoration: none;
+    color: tomato;
+}
